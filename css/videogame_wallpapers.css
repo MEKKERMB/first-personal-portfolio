@@ -1,0 +1,67 @@
+body {
+  background-color: #03401D;
+  margin: 8px;
+}
+/* Background color to the top navigation */
+.topnav {
+  background-color: #033318;
+  overflow: hidden;
+}
+/* Navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Color of link when hovering */
+.topnav a:hover {
+  background-color: #0ACC5E;
+  color: white;
+}
+/* Active/current link */
+.topnav a.active {
+  background-color: #0ACC5E;
+  color: white;
+}
+#main-container {
+/*border: 8px solid white;*/
+  margin: 8px 0px 8px 0px;
+/*width: 100%;*/
+}
+.container-1 {
+/*width: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.video-1 {
+  margin: 0px 8px 4px 0px;
+}
+.video-1 video {
+  max-width: 640px;
+  opacity: 80%;
+}
+.content-1 p, h2 {
+  color: white;
+}
+.container-2 {
+/*width: 100%;*/
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.video-2 {
+  margin: 0px 0px 0px 8px;
+}
+.video-2 video {
+  max-width: 640px;
+}
+.content-2 p, h2 {
+  color: white
+}
+.title-2, .text-2 {
+  text-align: right;
+}

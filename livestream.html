@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <META CHARSET="UTF-8">
+  <title>Watch me live!</title>
+  <link rel="stylesheet" href="css/livestream.css">
+  <link rel="icon" type="image/x-icon" href="web_images/favicon.ico">
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="/">Home</a>
+    <a>News</a>
+    <a href="encoding-samples">Encoding samples</a>
+    <a href="videogame-wallpapers">Videogame wallpapers</a>
+    <a href="livestream" class="active">Livestream</a>
+    <a>About</a>
+  </div>
+  <div id="main-container">
+    <div id="twitch-embed"></div>
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1620,
+        height: 720,
+        muted: true,
+        channel: "mekkermb",
+      });
+    </script>
+  </div>
+</body>
+
+</html>
